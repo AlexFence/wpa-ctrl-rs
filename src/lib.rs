@@ -19,6 +19,7 @@ extern crate failure;
 extern crate log;
 extern crate nix;
 
+pub mod commands;
 mod wpactrl;
 pub use wpactrl::{WpaCtrl, WpaCtrlAttached, WpaCtrlBuilder};
 
